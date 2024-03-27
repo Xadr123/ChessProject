@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmpnxxl7uprw7"]
+
+[ext_resource type="Script" path="res://Scripts/main.gd" id="1_hpjqp"]
+[ext_resource type="PackedScene" uid="uid://cpc63va604g44" path="res://Scenes/board_ui.tscn" id="2_h0vri"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_hpjqp")
+
+[node name="BoardUI" parent="." instance=ExtResource("2_h0vri")]
+
+[node name="TestButton" type="Button" parent="."]
+offset_left = 749.0
+offset_top = 203.0
+offset_right = 834.0
+offset_bottom = 234.0
+text = "Set Pieces
+"
+
+[connection signal="pressed" from="TestButton" to="." method="_on_test_button_pressed"]

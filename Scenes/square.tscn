@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://thbs8787wqks"]
+
+[ext_resource type="Script" path="res://Scripts/square.gd" id="1_04pi0"]
+
+[node name="Square" type="ColorRect"]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_04pi0")

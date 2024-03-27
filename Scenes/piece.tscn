@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6abfvbpocii3"]
+
+[ext_resource type="Script" path="res://Scripts/piece.gd" id="1_vsmne"]
+
+[node name="Piece" type="TextureRect"]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_vsmne")
