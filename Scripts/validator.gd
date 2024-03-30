@@ -226,7 +226,7 @@ static func validate_king(piece, board, location, v, turn, player) -> Move_Resul
 	# king cannot be in check
 	# king does not land on or pass through a square under attack
 
-	# function for king in check
+	# function for king in check (should go in main?)
 	# check surrounding squares for friendly pieces
 	# if a rank/file does not have a friendly piece in front, check for enemy piece
 	# if enemy piece can move more than 1 square, and can move to king, check
